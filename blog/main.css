@@ -1,0 +1,73 @@
+.header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+body {
+    background-color: #112935;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: 400;
+}
+
+.menu {
+    list-style: none;
+    text-align: left;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+.nombre p{
+    justify-content: center;
+    font-size: 2em;
+}
+
+.logo {
+    width: 150px;
+}
+
+.actividades{
+    justify-content: center;
+    list-style: none;
+    text-align: center;
+    padding: 1em;
+}
+
+.actividades img{
+    width: 300px;
+    height: 300px;
+    object-fit: fill;
+}
+
+.Inicio {
+    display: block;
+    }
+
+.Dia1 {
+    display: none;
+    }
+
+.Dia2 {
+    display: none;
+    }
+
+.Dia3 {
+    display: none;
+    }
+
+.Dia4 {
+    display: none;
+    }
+
+.Dia5 {
+    display: none;
+    }

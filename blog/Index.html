@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+    <title>Una vision perversa</title>
+</head>
+
+<body>
+    
+    <div class="container">
+        <header class="header">
+            <a href="#">
+                <img src="imagenes/yo.jpg" class="logo">
+            </a>
+        </header>
+        <div class="nombre">
+            <p>Ruben Aristides Valencia Alvarado</p>
+        </div>      
+    
+    <nav>
+        <ul class="menu" id="menu">
+            <li><a href="#"><input type="submit" value="Inicio" onclick="mostrar_ocultar()"/></a></li>
+            <li><a href="#"><input type="submit" value="Dia 1" onclick="mostrar_ocultar_Dia1()"/></a></li>
+            <li><a href="#"><input type="submit" value="Dia 2" onclick="mostrar_ocultar_Dia2()"/></a></li>
+            <li><a href="#"><input type="submit" value="Dia 3" onclick="mostrar_ocultar_Dia3()"/></a></li>
+            <li><a href="#"><input type="submit" value="Dia 4" onclick="mostrar_ocultar_Dia4()"/></a></li>
+            <li><a href="#"><input type="submit" value="Dia 5" onclick="mostrar_ocultar_Dia5()"/></a></li>
+        </ul>
+    </nav>
+    
+</div>
+
+</div>
+    
+    <section class="Informacion">
+        <div class="Contenido">
+            <h2>Actividades</h2>
+            <ul class="actividades" id="actividades">
+                <li>
+                    <article Class="Inicio" id="Inicio">
+                        <img src="imagenes/misterio.png" id="Explicacion">
+                        <h3>Explicacion de la actividad</h3>
+                        <p>Una vision perversa fue una actividad realizada por el profesor Carlos Juan la cual consiste en descubrir la identidad de un hombre misterioso
+                            que amenaza con destruir la UCA. Resolviendo una serie de acertijo y recolectando codigos que estaban localizados en diferentes zonas dentro del campus de la UCA.
+                        </p>
+                    </article >
+                </li>
+                <li>
+                    <article Class="Dia1" id="Dia1">
+                        <img src="imagenes/ale rav.png" id="Dia1_imagen">
+                        <h3>Capítulo 1 - “Begin;”</h3>
+                        <p>El dia lunes nos cayo un video a los estudiantes de Administracion de Base de datos de un personaje llamado Ale Rav que amenazo con destruir la UCA,
+                            Luego un audio de otro personaje misterioso nos informo que teniamos que ayudarlo mandandonos un enlace y pidiendonos ayuda para decifrar un acertijo.
+                        </p>
+                        <img src="imagenes/primer_codigo.jpeg" id="link1">
+                        <h3>Respuesta Acertijo 1</h3>
+                        <p>
+                            Para resolver el primer acertijo lo que se tuvo que hacer fue:
+                            Hacer una funcion que pasara verificando una lista de numeros, que identificara que todos fueran numeros y que no hubieran letras y que el ocatavo digito fuera un "-"
+                            Luego una funcion que dejara multiplicar el primer dato por 9 y luego el segundo por 8 asi hasta llegar al ultimo numero, luego estas multiplicaciones se sumaban, luego la suma de las multiplicaciones se tenian que sumar con un modulo de 10.
+                            esto nos daba un numero para hacer una resta que restandolo con el numero de verificacion que seria el ultimo numero del DUI tendria que dar 0 y nos daria el DUi verdadero.
+                        </p>
+                    </article>
+                </li>
+                <li>
+                    <article Class="Dia2" id="Dia2">
+                        <img src="imagenes/dia2.jpeg" id="Dia2">
+                        <h3>Capítulo 2 - “O-O-O”</h3>
+                        <p>El dia martes</p>
+                        <img src="imagenes/segundo_codigo.jpeg" id="link2">
+                        <h3>Respuesta Acertijo 2</h3>
+                        <p>
+                            Para resolver el segundo acertijo lo que se tuvo que hacer fue:
+                            El siguiente acertijo se resuelve crando una funcion que te permite cambiar un empleado de cargo, pero tambien tiene que validar que no trabaje para el departamente al que se le esta asignando.
+                            Se deben de hacer 2 triggers uno para representar que trabaja en ese departamento y otro para representar que no cambia de trabajo.
+                        </p>
+                        </article>
+                </li>
+                <li>
+                    <article Class="Dia3" id="Dia3">
+                    <img src="imagenes/dia3.jpeg" id="Dia3">
+                    <h3>Capítulo 3 - “minus monocromo”</h3>
+                    <p>El dia miercoles</p>
+                    <img src="imagenes/tercer_codigo.jpeg" id="link3">
+                    <h3>Respuesta Acertijo 3</h3>
+                    <p>
+                        Para resolver el tercer acertijo lo que se tuvo que hacer fue:
+                        EL problema se da en asignar a los empleados en sus trabajos, al asignar a un empleado en una superclase no lo guarda en su subclase y viceversa.
+                        Lo que se debe hacer es una funcion que te permita saber cuando se en una tabla miembro se debe de comprobar la coincidencia de el departamento para ver si existe en este, si no existe se rechaza la insercion.
+                        Luego la funcion tiene que borrar el miembro de su subclase y ingresarlo en el atributo departamento de miembro y moverse a la subclase que le corresponda.
+    
+                    </p>
+                    </article>
+                </li>
+                <li>
+                    <article Class="Dia4" id="Dia4"> 
+                    <img src="imagenes/dia4.jpeg" id="Dia4">
+                    <h3>Capítulo 4 - “cumulonimbus”</h3>
+                    <p>El dia jueves</p>
+                    <img src="imagenes/cuarto_codigo.jpeg" id="link4">
+                    <h3>Respuesta Acertijo 4</h3>
+                    <p>
+                        Para resolver el cuarto acertijo lo que se tuvo que hacer fue:
+                        El cuarto acertijo lo que nos pide es el de borrar proyectos, como proyectos se anexa a otras entidades de proyecto por medio de una disjuncion tenemos que asegurar su independencia.
+                        Se debe de crear una funcion que cuando se elimine un proyecto a algun elemento de la subclase lo elimine automaticamente de la superclase.
+                        Tambien se debe hacer una segunda funcion que dado que la especializacion es disjunta , garantice que no pueda existir el mimso objeto en una subclase.
+                    </p>
+                    </article>
+                </li>
+                <li>
+                    <article Class="Dia5" id="Dia5">
+                    <img src="imagenes/dia5.jpeg" id="Dia5">
+                    <h3>Capítulo 5 - “Commit;”</h3>
+                    <p>El dia viernes</p>
+                    <img src="imagenes/ultimo_codigo.jpeg" id="link5">
+                    <img src="imagenes/kurt.jpeg">
+                    <h3>El ultimo mensaje</h3>
+                    <p>
+                        El ultimo mensaje de Kurt y Ale:
+                        Kurt no logro sobrevivir y murio a manos de Ale seremos nosotros los siguientes???
+                    </p>
+                    </article>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <footer>
+        
+        <p>Copyright 2019 Ruben Aristides Valencia Alvarado. All Rights Reserved</p>
+        <p>No soy propietario de todas las imagenes mostradas en esta pagina web</p>
+
+    </footer>
+
+    
+</body>
+
+</html>
